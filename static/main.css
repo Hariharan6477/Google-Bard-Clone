@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'DIN Next LT Pro Bold';
+    src: url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.eot');
+    src: url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.eot?#iefix') format('embedded-opentype'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.woff2') format('woff2'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.woff') format('woff'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.ttf') format('truetype'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.svg#DIN Next LT Pro Bold') format('svg');
+}
+
+.Navbar ul{
+
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+
+   
+    
+   
+    overflow: hidden;
+
+    
+    
+
+}
+.Navbar ul li{
+    
+    color:  #ff4655;
+    float:left;
+    padding-left: 70px;
+    top:15px;
+    
+    left: 50%;
+    position: relative;
+   
+    font-size: 17px ;
+    font-weight:400 ;
+    font-family: 'DIN Next LT Pro Bold';
+
+}
+
+
+
+.Navbar ul li a {
+    display: block;
+    text-align: center;
+     
+
+}
+
+
+:root {
+    --v-red: #ff4655;
+    --v-white: #ece8e1;
+    --v-black: #0f1923;
+    --v-outline: rgba(236, 232, 225, .5);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 10px;
+    margin: 0;
+    color: var(--v-white);
+    background-color: var(--v-black);
+    text-rendering: optimizeLegibility;
+}
+
+#main{
+    display:flex;
+    overflow:hidden;
+
+}
+#slider{
+    width:50%;
+
+    left:200px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 86vh;
+    width: 50%;
+}
+
+.box {
+    width: 70%;
+}
+
+.logo {
+    margin-bottom: 40px;
+    fill: var(--v-white);
+}
